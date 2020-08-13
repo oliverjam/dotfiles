@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Oliver Phillips
+	email = oliverjamesphillips@gmail.com
+[color]
+  ui = auto
+[pull]
+	rebase = false
