@@ -3,6 +3,6 @@
 	name = Oliver Phillips
 	email = oliverjamesphillips@gmail.com
 [color]
-  ui = auto
+	ui = auto
 [pull]
 	rebase = false
