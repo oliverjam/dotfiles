@@ -42,8 +42,8 @@ alias ggpull='git pull origin "$(git_current_branch)"'
 
 alias gp='git push'
 alias ggpush='git push origin "$(git_current_branch)"'
-alias gpf='git push --force-with-lease'
-alias gpf!='git push --force'
+alias gpf='ggpush --force-with-lease'
+alias gpf!='ggpush --force'
 
 alias gb='git branch'
 alias gba='git branch -a'
