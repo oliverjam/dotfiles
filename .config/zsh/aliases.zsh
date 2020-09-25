@@ -25,6 +25,9 @@ alias nrb="npm run build"
 
 alias cra="npx create-react-app"
 
+alias ghv="gh repo view -w"
+alias ghc="gh repo create --public"
+
 # magic-wormhole for sending secure stuff
 # https://magic-wormhole.readthedocs.io/
 alias whs="wormhole send"
