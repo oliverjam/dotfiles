@@ -1,6 +1,6 @@
 # This is Git's per-user configuration file.
 [user]
-	name = Oliver Phillips
+	name = oliverjam
 	email = oliverjamesphillips@gmail.com
 [color]
 	ui = auto
@@ -8,3 +8,8 @@
 	rebase = false
 [init]
 	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
