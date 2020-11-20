@@ -51,3 +51,9 @@ function git_current_branch() {
   fi
   echo ${ref#refs/heads/}
 }
+
+function mkpw() {
+  export LC_ALL=C ;
+  head /dev/urandom | tr -dc '!-~' | head -c ${1:-32} | pbcopy;
+  pbpaste;
+}
