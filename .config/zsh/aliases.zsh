@@ -71,4 +71,5 @@ alias gds='git diff --staged'
 alias gdt='git diff-tree --no-commit-id --name-only -r'
 alias gdw='git diff --word-diff=color'
 
-alias glog='git log -p'
+# single line log, ${author} (yellow, left-padded) | ${date} (related, blue, left-padded) | commit title
+alias glog="git log --pretty=format:'%C(yellow)%>(15)%aN%Creset | %C(blue)%>(11)%ar%Creset | %s'"
