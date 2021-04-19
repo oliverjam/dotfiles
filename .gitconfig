@@ -3,7 +3,7 @@
 	name = oliverjam
 	email = oliverjamesphillips@gmail.com
 [color]
-	ui = auto
+	ui = always
 [pull]
 	rebase = false
 [init]
@@ -13,3 +13,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[core]
+  pager = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
