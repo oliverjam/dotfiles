@@ -1,3 +1,9 @@
+# nice prompt with git stuff
+# https://github.com/sindresorhus/pure
+fpath+=$HOME/.config/zsh/pure
+autoload -U promptinit; promptinit
+prompt pure
+
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
