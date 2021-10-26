@@ -1,6 +1,6 @@
 # for managing config github repo
 # https://www.atlassian.com/git/tutorials/dotfiles
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/.git --work-tree=$HOME'
 
 # going up
 alias ...="../.."
