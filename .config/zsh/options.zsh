@@ -7,6 +7,9 @@ prompt pure
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
+export FLYCTL_INSTALL="$HOME/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
 # use VS Code as default editor for git commit etc
 export EDITOR="code -w"
 
