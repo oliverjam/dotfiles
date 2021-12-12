@@ -222,7 +222,7 @@
 		</dict>
 	</dict>
 	<key>Default Arrangement Name</key>
-	<string>Right half</string>
+	<string>Default</string>
 	<key>Default Bookmark Guid</key>
 	<string>4365E283-2169-4188-B829-80BAD44C5F29</string>
 	<key>EnableDivisionView</key>
@@ -249,11 +249,11 @@
 			<key>AWDS Tab Directory</key>
 			<string>~/Code</string>
 			<key>AWDS Tab Option</key>
-			<string>Yes</string>
+			<string>Recycle</string>
 			<key>AWDS Window Directory</key>
 			<string>~/Code</string>
 			<key>AWDS Window Option</key>
-			<string>Yes</string>
+			<string>Recycle</string>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -1028,7 +1028,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/oliver/Code</string>
+			<string>~/Code</string>
 		</dict>
 	</array>
 	<key>OpenArrangementAtStartup</key>
@@ -1084,7 +1084,7 @@
 	<false/>
 	<key>Window Arrangements</key>
 	<dict>
-		<key>Right half</key>
+		<key>Default</key>
 		<array>
 			<dict>
 				<key>Desired Columns</key>
@@ -1136,11 +1136,11 @@
 											<key>AWDS Tab Directory</key>
 											<string>~/Code</string>
 											<key>AWDS Tab Option</key>
-											<string>Yes</string>
+											<string>Recycle</string>
 											<key>AWDS Window Directory</key>
 											<string>~/Code</string>
 											<key>AWDS Window Option</key>
-											<string>Yes</string>
+											<string>Recycle</string>
 											<key>Ambiguous Double Width</key>
 											<false/>
 											<key>Ansi 0 Color</key>
@@ -1387,7 +1387,7 @@
 												<real>0.90032327175140381</real>
 											</dict>
 											<key>Guid</key>
-											<string>91586500-B211-4D11-9FC9-666A0D17C662</string>
+											<string>95A2958A-A7EA-4083-BDE1-3B9C9A7E51C0</string>
 											<key>Horizontal Spacing</key>
 											<real>1</real>
 											<key>Icon</key>
@@ -1919,10 +1919,10 @@
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
-											<string>/Users/oliver/Code</string>
+											<string>~/Code</string>
 										</dict>
 										<key>Columns</key>
-										<integer>90</integer>
+										<integer>80</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
@@ -2001,11 +2001,23 @@
 											<string>/Users/oli/Code/coursebook</string>
 											<string>/Users/oli/Code/coursebook</string>
 											<string>/Users/oli/Code/coursebook</string>
+											<string>/Users/oli/Code/coursebook</string>
+											<string>/Users/oli</string>
+											<string>/Users/oli</string>
+											<string>/Users/oli</string>
+											<string>/Users/oli</string>
+											<string>/Users/oli</string>
+											<string>/Users/oli</string>
+											<string>/Users/oli/Code</string>
+											<string>/Users/oli/Code</string>
+											<string>/Users/oli/Code</string>
+											<string>/Users/oli/Code</string>
+											<string>/Users/oli/Code</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>~/Code</string>
+											<string>/Users/oli/Code</string>
 										</dict>
 										<key>Hostname to Shell</key>
 										<dict/>
@@ -2038,7 +2050,7 @@
 										<key>Rows</key>
 										<integer>41</integer>
 										<key>Session GUID</key>
-										<string>74ABCBF6-E908-4ACD-9B10-C96CA19A1FAD</string>
+										<string>A35B853A-E247-4955-BAD6-CAA0379CC909</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -2051,7 +2063,7 @@
 											<string>$$</string>
 										</dict>
 										<key>Working Directory</key>
-										<string>/Users/oli/Code/coursebook</string>
+										<string>/Users/oli/Code</string>
 										<key>Working Directory Poller Disabled</key>
 										<false/>
 									</dict>
@@ -2062,7 +2074,7 @@
 										<key>height</key>
 										<real>906</real>
 										<key>width</key>
-										<real>842</real>
+										<real>756</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -2077,7 +2089,7 @@
 								<key>height</key>
 								<real>906</real>
 								<key>width</key>
-								<real>842</real>
+								<real>756</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -2087,11 +2099,11 @@
 							<false/>
 						</dict>
 						<key>Tab GUID</key>
-						<string>97CEED23-3115-4BFC-9937-2F546A2A4743</string>
+						<string>10B13067-6A4F-4F0E-8CE1-B82F4ED3E04D</string>
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
-				<string>pty-B3C88F38-B63E-4FAE-8F85-FBB260F69D5E</string>
+				<string>pty-99D828AB-7DC7-446C-81B6-4A8615FCA5C5</string>
 				<key>Toolbelt</key>
 				<dict>
 					<key>Profiles</key>
@@ -2120,7 +2132,7 @@
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>842</real>
+				<real>756</real>
 				<key>Window Type</key>
 				<integer>13</integer>
 				<key>X Origin</key>
