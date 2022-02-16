@@ -10,9 +10,6 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
-export FLYCTL_INSTALL="$HOME/.fly"
-export PATH="$FLYCTL_INSTALL/bin:$PATH"
-
 # use VS Code as default editor for git commit etc
 export EDITOR="code -w"
 
