@@ -10,7 +10,7 @@ alias .....="../../../.."
 # Always use color output for `ls`
 alias ls="command ls -G"
 
-alias cat="bat --theme=Nord"
+alias cat="bat --theme=GitHub"
 
 # npm shortcuts
 alias nr="npm run"
